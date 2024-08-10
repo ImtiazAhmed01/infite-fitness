@@ -149,3 +149,31 @@ main {
     display: flex;
     gap: 40px;
 }
+
+.card-sec {
+    background-color: #161515;
+    margin: 150px 150px 50px 10px;
+
+}
+
+.card {
+    display: flex;
+    gap: 30px;
+}
+
+.card-details {
+    padding: 41px 100px 40px 54px;
+}
+
+.card-img {
+    width: 80%;
+    object-fit: none;
+    object-position: 65% 28%;
+    padding: 30px 32px 29px 50px;
+    border-radius: 50px;
+}
+
+.btn-position {
+    margin-left: 120px;
+    padding: 10px 50px;
+}
