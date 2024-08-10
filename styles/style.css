@@ -191,9 +191,61 @@ main {
     margin-right: 150px;
 }
 
+.bmi-sec {
+    background-color: #161515;
+    margin-left: -200px;
+    display: flex;
+    gap: 250px;
+}
+
+table,
+th,
+td {
+    border: 0.3px solid white;
+    padding: 15px;
+    text-align: left;
+    border-collapse: collapse
+}
+
+.table {
+    padding: 52px 0px 133px 200px;
+    /* padding-left: 200px; */
+}
+
+.form0 {
+    margin-top: 70px;
+}
+
+.form {
+    margin-top: 50px;
+    margin-bottom: 35px;
+}
+
+.input {
+    width: 35%;
+    height: 25px;
+}
+
+.inputo {
+    margin-top: 7px;
+    margin-right: 5px;
+    width: 36.3%;
+    height: 30px;
+}
+
+.inpute {
+    width: 73%;
+    height: 35px;
+    margin-top: 7px;
+}
+
+.cal-btn {
+    padding: 16px 70px 16px 70px;
+}
+
 .team {
     background-color: #161515;
-    padding: 10px 10px 10px 10px;
+    padding: 10px 10px 20px 10px;
     margin-left: 150px;
     margin-right: 340px;
 }
@@ -261,4 +313,34 @@ main {
     width: 100%;
     height: auto;
     border-radius: 18px;
+}
+
+footer {
+    background-color: #161515;
+    margin-top: 80px;
+}
+
+.f-position {
+    margin-left: 190px;
+    margin-right: 190px;
+    padding-bottom: 20px;
+}
+
+.footers {
+    font-weight: bolder;
+    font-size: 70px;
+}
+
+.foot {
+    display: flex;
+    gap: 170px;
+    padding-bottom: 50px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.gs-sec {
+    margin-top: 65px;
 }
