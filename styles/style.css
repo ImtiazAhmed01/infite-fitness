@@ -165,15 +165,100 @@ main {
     padding: 41px 100px 40px 54px;
 }
 
+.card-t {
+    font-size: 48px;
+}
+
 .card-img {
     width: 80%;
     object-fit: none;
     object-position: 65% 28%;
-    padding: 30px 32px 29px 50px;
+    padding: 55px 32px 29px 50px;
     border-radius: 50px;
 }
 
 .btn-position {
     margin-left: 120px;
     padding: 10px 50px;
+}
+
+.des {
+    color: white;
+    opacity: 50%;
+}
+
+.p {
+    margin-right: 150px;
+}
+
+.team {
+    background-color: #161515;
+    padding: 10px 10px 10px 10px;
+    margin-left: 150px;
+    margin-right: 340px;
+}
+
+.meet {
+    display: flex;
+    padding-top: 10px;
+}
+
+.trainer1 {
+    background-image: url(../images/trainer1.1.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    border-radius: 18px;
+}
+
+.trainer2 {
+    background-image: url(../images/trainer2.1.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    border-radius: 18px;
+}
+
+.trainer3 {
+    background-image: url(../images/trainer3.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    border-radius: 18px;
+}
+
+.name {
+    padding-top: 150px;
+    padding-left: 25px;
+}
+
+.prof {
+    padding-left: 25px;
+    opacity: 50%;
+
+}
+
+.trainer4 {
+    background-image: url(../images/trainer4.1.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    border-radius: 18px;
+}
+
+.trainer5 {
+    background-image: url(../images/file\ \(4\).png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    border-radius: 18px;
+}
+
+
+.trainer6 {
+    background-image: url(../images/trainer6.1.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    border-radius: 18px;
 }
