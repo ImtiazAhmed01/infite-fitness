@@ -12,6 +12,11 @@ main {
     margin-left: 200px;
 }
 
+.hum-burger {
+    color: white;
+    display: none;
+}
+
 .btn-primary {
     background-color: #E6533C;
     color: white;
@@ -97,6 +102,7 @@ main {
     display: flex;
     gap: 200px;
     background-color: #161515;
+    padding-bottom: 20%;
 }
 
 .banner-text {
@@ -261,10 +267,10 @@ td {
 }
 
 .v-p {
-    padding: 7px 30px 7px 30px;
+    padding: 16px 70px 16px 70px;
     margin-top: 50px;
     margin-bottom: 50px;
-    margin-left: 36%;
+    margin-left: 34%;
 }
 
 .team {
@@ -367,4 +373,60 @@ ul {
 
 .gs-sec {
     margin-top: 65px;
+}
+
+/* Responsive */
+
+@media screen and (max-width:576px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .nav-option {
+        display: none;
+    }
+
+    .hum-burger {
+        display: block;
+        align-items: right;
+        margin-left: 600px;
+        font-size: 30px;
+    }
+
+    .banner-text {
+        font-size: 36px;
+    }
+
+    .banner-section {
+        background-color: #161515;
+        display: block;
+        margin-right: -630px;
+
+    }
+
+    .btn-b {
+        display: flex;
+        gap: 20px;
+    }
+
+    .red {
+        width: 25%;
+        height: 0%;
+        border-radius: 50%;
+    }
+
+    .lower {
+        margin-right: 600px;
+        margin-left: 100px;
+        gap: 500px;
+
+    }
+
+    .upper {
+        margin-right: 300px;
+        margin-left: 400px;
+        background-color: rgb(255, 255, 255, 15%);
+    }
+
+
 }
