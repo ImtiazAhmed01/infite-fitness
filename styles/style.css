@@ -38,7 +38,7 @@ main {
 /* Nav-bar */
 .title {
     font-weight: bolder;
-    font-size: 25px;
+    font-size: 36px;
     color: #E6533C;
 }
 
@@ -357,6 +357,7 @@ footer {
     padding-bottom: 20px;
 }
 
+
 .footers {
     font-weight: bolder;
     font-size: 70px;
@@ -450,12 +451,65 @@ ul {
     }
 
     .card-sec {
-        margin-right: -630px;
+        margin-right: -500px;
     }
 
     .card {
         display: block;
     }
 
+    .bmi-sec {
+        display: block;
+        margin-right: -650px;
+
+    }
+
+    .bmi-r {
+        text-align: left;
+    }
+
+    .form0 {
+        margin-left: 200px;
+        margin-bottom: 50px;
+    }
+
+    .f-cards {
+        display: block;
+        gap: 200px;
+        margin-left: 200px;
+    }
+
+    .f-card {
+        margin-right: -300px;
+    }
+
+    .v-p {
+        margin-left: 270px;
+        font-size: 16px;
+    }
+
+    .team {
+        margin-right: -230px;
+        padding-left: 20px;
+    }
+
+    .meet {
+        margin-right: -600px;
+        display: block;
+    }
+
+    footer {
+        margin-right: -830px;
+    }
+
+    .foot {
+        display: block;
+        padding-top: 25px;
+    }
+
+    .f-ri {
+        margin-right: 100px;
+        font-size: 20px;
+    }
 
 }
