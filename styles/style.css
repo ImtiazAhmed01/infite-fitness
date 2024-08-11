@@ -110,7 +110,7 @@ main {
 }
 
 .upper {
-    backdrop-filter: blur(8px);
+    background-color: rgb(255, 255, 255, 15%);
     text-align: center;
     margin-left: 190px;
     margin-top: 100px;
@@ -120,7 +120,8 @@ main {
 
 .lower {
     /* display: flex; */
-    backdrop-filter: blur(4px);
+    /* backdrop-filter: blur(4px); */
+    background-color: rgb(255, 255, 255, 15%);
     margin-top: 180px;
     margin-right: 450px;
     border: 1px solid white;
@@ -395,6 +396,7 @@ ul {
 
     .banner-text {
         font-size: 36px;
+        padding-top: 15px;
     }
 
     .banner-section {
@@ -426,6 +428,33 @@ ul {
         margin-right: 300px;
         margin-left: 400px;
         background-color: rgb(255, 255, 255, 15%);
+    }
+
+    .habits {
+        font-size: 32px;
+    }
+
+    .habits,
+    .habit-des {
+        margin-right: -500px;
+    }
+
+    .habit-pics {
+        display: block;
+        margin-left: 200px;
+
+    }
+
+    .des-r {
+        padding-right: 500px;
+    }
+
+    .card-sec {
+        margin-right: -630px;
+    }
+
+    .card {
+        display: block;
     }
 
 
