@@ -243,6 +243,30 @@ td {
     padding: 16px 70px 16px 70px;
 }
 
+.f-img {
+    width: 100%;
+}
+
+.f-cards {
+    display: flex;
+    gap: 10px;
+}
+
+.f-card {
+    border: 1px solid white;
+    border-radius: 18px;
+    /* box-shadow: ; */
+    margin-right: 250px;
+    padding: 15px;
+}
+
+.v-p {
+    padding: 7px 30px 7px 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 36%;
+}
+
 .team {
     background-color: #161515;
     padding: 10px 10px 20px 10px;
