@@ -121,6 +121,7 @@ main {
     margin-top: 100px;
     margin-right: 280px;
     border: 1px solid white;
+    border-radius: 9px;
 }
 
 .lower {
@@ -128,13 +129,14 @@ main {
     /* backdrop-filter: blur(4px); */
     background-color: rgb(255, 255, 255, 15%);
     margin-top: 180px;
-    margin-right: 450px;
+    margin-right: 420px;
     border: 1px solid white;
+    border-radius: 9px;
 }
 
 .red {
     background-color: #E6533C;
-    width: 50%;
+    width: 55%;
     height: 0%;
     border-radius: 50%;
 }
@@ -408,7 +410,7 @@ ul {
     .banner-section {
         background-color: #161515;
         display: block;
-        margin-right: -630px;
+        margin-right: -830px;
 
     }
 
@@ -418,22 +420,28 @@ ul {
     }
 
     .red {
-        width: 25%;
-        height: 0%;
+        width: 45%;
         border-radius: 50%;
     }
 
+    .banner-img {
+        margin-left: 400px;
+        padding-bottom: 200px;
+
+    }
+
     .lower {
-        margin-right: 600px;
-        margin-left: 100px;
+        margin-right: 700px;
+        margin-left: -80px;
+        margin-top: 100px;
+        padding-left: 35px;
         gap: 500px;
 
     }
 
     .upper {
-        margin-right: 300px;
-        margin-left: 400px;
-        background-color: rgb(255, 255, 255, 15%);
+        margin-right: 450px;
+        margin-left: 200px;
     }
 
     .habits {
@@ -465,7 +473,7 @@ ul {
 
     .bmi-sec {
         display: block;
-        margin-right: -650px;
+        margin-right: -830px;
 
     }
 
@@ -486,6 +494,7 @@ ul {
 
     .f-card {
         margin-right: -300px;
+        margin-bottom: 40px;
     }
 
     .v-p {
