@@ -104,10 +104,13 @@ main {
 
 .banner-section {
     margin-left: -210px;
+    margin-right: -7px;
     display: flex;
     gap: 200px;
-    background-color: #161515;
+    /* background-color: #161515; */
+    background: linear-gradient(black, rgb(57, 54, 54), black);
     padding-bottom: 20%;
+
 }
 
 .banner-text {
@@ -382,6 +385,7 @@ ul {
 
 .gs-sec {
     margin-top: 65px;
+    width: 25%;
 }
 
 /* Responsive */
